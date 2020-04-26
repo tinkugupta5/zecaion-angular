@@ -82,7 +82,7 @@ body
     color: #fff !important;
     font-weight: 600;
     float: right;
-    padding: 20px;
+    
 }
 
 .fa-bars
@@ -471,7 +471,7 @@ a.span:nth-child(3){
     border-radius: 40px;
     box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
     cursor: pointer;
-    transition: 0.4s;
+    transition: 0.3s;
     }
     .ask_q{
         padding-top: 14px;
@@ -577,10 +577,123 @@ a.span:nth-child(3){
     height: 400px;
 }
 
+.why{
+    margin-left: 100px;
+}
+
 
 /* teta */
 
-/* Testimonial section */
+/* Testimonial section  css */
 /* feedback
  */
+    .testi{
+        border-radius: 10px;
+    }
 
+    .card-img{
+        background-image: linear-gradient(to right , #000000, #000000);
+        
+    }
+
+  
+  .card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .avatar {
+      background-image: linear-gradient(to right , #a517ba, #5f1782);
+    border: 0.1rem solid rgba(255, 255, 255, 0.3);
+    max-width: 2rem;
+  }
+  
+  .card__testimonial
+  {   padding-bottom: 30px;
+      border-radius: 10px;
+  }
+
+  .testi__card
+  {
+      margin-bottom: 100px;
+  }
+
+  /* Social media */
+
+  
+/*---------social media ---------*/
+#social-media
+{
+    background: #f8f9fa;
+    padding: 100px 0px;
+	padding-top: 60px;
+	margin-top :70px;
+}
+
+.social__box
+{
+    margin-left: 50px;
+}
+
+#social-media p
+{
+    font-size: 50px;
+    font-weight:600;
+    margin-bottom: 30px;
+
+}
+.social-icon img
+{
+
+width: 80px;
+transition: 0.5s;
+
+
+}
+
+.social-icon a:hover img 
+{
+    transform: translateY(-12px);
+}
+
+/*---------- footer section ---------*/
+
+
+#footer
+{
+    background-image: linear-gradient(to right , #a517ba, #5f1782);
+    
+
+}
+
+
+
+.footer_row{
+    padding-left: 30%;
+}
+
+.list-unstyled li a{
+    color: white;
+}
+
+.list-unstyled li a:hover{
+    list-style: none;
+    text-decoration: none;
+}
+
+h5{
+    color: white;
+}
+
+.footer-copyright 
+{
+    color: white;
+    
+
+}
+
+.footer-copyright a
+{
+    color: white;
+
+
+}
