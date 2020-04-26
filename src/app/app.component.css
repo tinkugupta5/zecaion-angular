@@ -64,7 +64,7 @@ body
 }
 
 .dropdown-menu{
-    background-image: linear-gradient(to right , #a517ba, #5f1782);
+    background-image: linear-gradient(to right , #a417ba, #5f1782);
 
 }
 
@@ -106,9 +106,10 @@ body
 
 #banner
 {
-    background-image:url("/assets/image/banner2.jpg"), linear-gradient(to right , #222222, #33024c);
+    background-image:linear-gradient(#b014c82a, #3e0e56f3),url("/assets/image/banner2.jpg");
     color: #ffffff;
     padding-top: 20%;
+    background-attachment: fixed;
 }
 
 .banner__title
@@ -542,7 +543,7 @@ a.span:nth-child(3){
 }
 
 .about-us{
-    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .about-title
@@ -574,6 +575,8 @@ a.span:nth-child(3){
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 10%;
+    position: relative;
+    right: 50px;
     width: auto;
     border-radius: 5px;
     height: 400px;
@@ -589,7 +592,7 @@ a.span:nth-child(3){
 /* Testimonial section  css */
 /* feedback
  */
-    .testi{
+    /* .testi{
         border-radius: 10px;
     }
 
@@ -617,7 +620,56 @@ a.span:nth-child(3){
   .testi__card
   {
       margin-bottom: 100px;
-  }
+  } */
+
+  
+/* Testimonial section */
+
+.section-testimonial
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.801)),url("/assets/image/banner2.jpg");
+	background-size: cover;
+	color: #fff;
+	background-attachment: fixed;
+
+}
+
+blockquote
+{
+	padding: 2%;
+	font-style: italic;
+	line-height: 145%;
+	position: relative;
+	margin-top: 40px;
+}
+
+blockquote:before
+{
+
+	content: "\201C";
+	font-size: 400%;
+	display: block;
+	position: absolute;
+	top: -5px;
+	left: -3px;
+	left: 0;
+
+}
+
+cite{
+	font-size: 90%;
+	margin-top: 10%;
+	display: block;
+}
+
+cite img 
+{
+	height: 45px;
+	border-radius: 50%;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
 
   /* Social media */
 
