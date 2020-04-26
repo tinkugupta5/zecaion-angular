@@ -106,7 +106,7 @@ body
 
 #banner
 {
-    background-image: linear-gradient(to right , #a517ba, #5f1782);
+    background-image:url("/assets/image/banner2.jpg"), linear-gradient(to right , #222222, #33024c);
     color: #ffffff;
     padding-top: 20%;
 }
@@ -573,7 +573,9 @@ a.span:nth-child(3){
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    padding-bottom: 10%;
+    width: auto;
+    border-radius: 5px;
     height: 400px;
 }
 
